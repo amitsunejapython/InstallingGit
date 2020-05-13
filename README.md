@@ -20,13 +20,28 @@ gpgkey=http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco
 
 
 
+
 rpm --import http://opensource.wandisco.com/RPM-GPG-KEY-WANdisco
+
+
+
 
 yum install git
 
+
+
+
 git config --global user.name amitsunejapython
 
+
+
+
+
 git config --global user.email amitsuneja.python@gmail.com
+
+
+
+
 
 git config --list
 
